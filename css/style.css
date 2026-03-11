@@ -1361,6 +1361,7 @@ a { color: inherit; }
 }
 .faq-group__icon::before,
 .faq-group__icon::after {
+  content: '';
   position: absolute;
   background: currentColor;
   top: 50%; left: 50%;
